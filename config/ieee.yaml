@@ -1,0 +1,23 @@
+venue: ieee
+document_class: IEEEtran
+
+title: "Automated Extraction of Business Requirements from Legacy Systems using Large Language Models"
+
+sections:
+  - abstract
+  - introduction
+  - background
+  - system_architecture
+  - methodology
+  - experiments
+  - results
+  - discussion
+  - conclusion
+
+bibliography:
+  style: IEEEtran
+  file: content/bibliography/references.bib
+
+options:
+  anonymous: false
+  conference: true

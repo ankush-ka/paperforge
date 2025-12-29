@@ -1,0 +1,23 @@
+venue: acl
+document_class: acl
+
+title: "Extracting Business Requirements from Legacy Systems using Large Language Models"
+
+sections:
+  - abstract
+  - introduction
+  - related_work
+  - methodology
+  - experiments
+  - results
+  - discussion
+  - limitations
+  - conclusion
+
+bibliography:
+  style: acl_natbib
+  file: content/bibliography/references.bib
+
+options:
+  anonymous: true
+  two_column: true

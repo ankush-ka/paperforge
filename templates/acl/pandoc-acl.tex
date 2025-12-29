@@ -1,0 +1,26 @@
+\documentclass[11pt]{article}
+
+\usepackage{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\title{$title$}
+
+\author{$for(author)$
+    $author.name$ \\
+    $author.affiliation$ \\
+    $author.location$ \\
+    \texttt{$author.email$}
+    $sep$ \And
+    $endfor$}
+
+\begin{document}
+    \maketitle
+
+    $body$
+
+    \bibliography{references}
+
+\end{document}
